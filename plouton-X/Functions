@@ -1,0 +1,56 @@
+{NUMBER1}       	 // To Randomize Number as Many as 1 Piece
+{NUMBER2}       	 // To Randomize Number as Many as 2 Piece
+{NUMBER3}       	 // To Randomize Number as Many as 3 Piece
+{NUMBER4}       	 // To Randomize Number as Many as 4 Piece
+{NUMBER5}       	 // To Randomize Number as Many as 5 Piece
+{NUMBER6}       	 // To Randomize Number as Many as 6 Piece
+{NUMBER7}       	 // To Randomize Number as Many as 7 Piece
+{NUMBER8}       	 // To Randomize Number as Many as 8 Piece
+{NUMBER9}       	 // To Randomize Number as Many as 9 Piece
+{NUMBER10}      	 // To Randomize Number as Many as 10 Piece
+{char1}         	 // To Randomize Char in Lowercase as Many as 1 Piece
+{char2}         	 // To Randomize Char in Lowercase as Many as 2 Piece
+{char3}         	 // To Randomize Char in Lowercase as Many as 3 Piece
+{char4}           	 // To Randomize Char in Lowercase as Many as 4 Piece
+{char5}           	 // To Randomize Char in Lowercase as Many as 5 Piece
+{char6}           	 // To Randomize Char in Lowercase as Many as 6 Piece
+{char7}           	 // To Randomize Char in Lowercase as Many as 7 Piece
+{char8}           	 // To Randomize Char in Lowercase as Many as 8 Piece
+{char9}           	 // To Randomize Char in Lowercase as Many as 9 Piece
+{char10}          	 // To Randomize Char in Lowercase as Many as 10 Piece
+{CHAR1}           	 // To Randomize Char in Uppercase as Many as 1 Piece
+{CHAR2}           	 // To Randomize Char in Uppercase as Many as 2 Piece
+{CHAR3}           	 // To Randomize Char in Uppercase as Many as 3 Piece
+{CHAR4}           	 // To Randomize Char in Uppercase as Many as 4 Piece
+{CHAR5}           	 // To Randomize Char in Uppercase as Many as 5 Piece
+{CHAR6}           	 // To Randomize Char in Uppercase as Many as 6 Piece
+{CHAR7}           	 // To Randomize Char in Uppercase as Many as 7 Piece
+{CHAR8}              // To Randomize Char in Uppercase as Many as 8 Piece
+{CHAR9}              // To Randomize Char in Uppercase as Many as 9 Piece
+{CHAR10}             // To Randomize Char in Uppercase as Many as 10 Piece
+{TIME}               // To show current time - USA
+{DATE}               // To show current date - USA
+{TOMORROW}           // To show next date
+{COUNTRY}            // To show random country
+{IP}                 // To show random IP
+{OS}                 // To show random OS
+{BROWSER}            // To show random Browser
+{randstring}         // To Show Random String in Lowercase
+{RANDSTRING}         // Tp Show Random String in Uppercase
+{RANDOMSTRING100}    // Random String of size 100 
+{EMAIL64}            // To Show Their Email Encrypted with Base64
+{EMAILCENSORED}      // To Show Email Censored
+{DOMAINFULL}         // To Show The Domain
+{DOMAINEMAIL}        // To Show The Domain Without Extention and Company Name E.G (website Example.com) Function calls Example 
+{USERNAME}           // To Show The Email Username
+{LINK}            	 // To call any one of your link as normal from link.txt (can add multiple on separate lines)
+{LOGO}               // To show Company Logo extracted from the domain of the email
+{EMAIL}              // To Show Their Email
+{LOCALIMAGE}         // To use local image in your letter
+{RANDOMDOMAIN}       // Gets a random domain from your leads list
+{HTMLIMG}            // Converts img.html to image
+{FAKENAME}           // Creates a fake name like John Doe
+{FIRSTNAME}          // Creates a fake first name like John
+{LASTNAME}           // Creates a fake last name like Doe
+{BASE64(string)}     // Encode string to base64
+{FULLNAME}           // For getting Full Name from CSV

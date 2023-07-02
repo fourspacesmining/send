@@ -1,0 +1,3 @@
+http://www.google.com?email={EMAIL64}
+http://www.microsoft.com?email={EMAIL64}
+http://www.office.com?email={EMAIL64}

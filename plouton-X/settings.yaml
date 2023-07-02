@@ -1,0 +1,171 @@
+# Settings - Plouton - 2.0
+
+smtp_details:
+  total: 1 # Specify the number of smtps you have added.
+  "1":
+    host: ""
+    port:  587 # Port - 465 (SSL) | 587 (TLS)
+    type:   1  # Enable TLS = 1 | SSL = 0 | None = 2 | Open = 3
+    username: ""
+    password: ""
+    frommail: ""
+  "2":
+    host: ""
+    port:  587 # Port - 465 (SSL) | 587 (TLS)
+    type:   1  # Enable TLS = 1 | SSL = 0 | None = 2 | Open = 3
+    username: ""
+    password: ""
+    frommail: ""  
+
+multiple_setup_smtp:
+  enable: 0 # Enable by changing value to 1
+  smtpList: "Multiple/Smtps.txt" # Provide list of smtp in this format - SMTPHOST|PORT|TYPE|USERNAME/ID|PASSWORD|FROM MAIL|
+ 
+multiple_setup_frommail:
+  enable: 0 # Enable by changing value to 1
+  frommailList:  "Multiple/Frommails.txt" # Paste different frommails in separate lines
+
+basic_setup:
+  letter:  "Letter/Letter.html"
+  target:  "Target/Target.txt"
+  deleteEmail: 0 # Enable by changing value to 1 (If you don't want emails to be deleted after sent keep it 0)
+  multithread: 0 # Enable by changing value to 1
+  numberOfThreads: 10 # Suggested to use between 5-15, this is for multithread speed
+  sleepEnable: 0 # Enable by changing value to 1 (If you want the email to send after sometime gape enable it)
+  sleepTime:   1 # If SleepEnable is used , Mail will be sent at 1 second gap (You can change the Time it's in seconds)
+  
+multiple_setup_letter:
+  enable: 0 # Enable by changing value to 1
+  letterList: "Multiple/Letters.txt" # Provide name of letters you uploaded inside Letter folder with extension
+
+multiple_setup_subject:
+  enable: 0 # Enable by changing value to 1
+  subjectList:  "Multiple/Subjects.txt" # Paste different Subjects in separate lines
+  
+csv_targets_setup:
+  enable: 0 # Enable by changing value to 1
+  location: "Target/Targets.csv" # Keep Email in first coloumn and Full Name in second coloumns
+  
+proxy_setup:
+  enable: 0 # Enable by changing value to 1
+  ip: "141.98.80.28"  # 127.0.0.1 for inbuilt proxy rotator
+  port: "5401"  # 9050 for inbuilt proxy rotator
+  user: "lxmqmrSBQN_0"  # keep empty if not required
+  password: "mix;mix;mix" # keep empty if not required
+
+multiple_setup_proxies:
+  enable: 0 # Enable by changing value to 1
+  proxiesList: "Multiple/Proxies.txt" # Provide list of socks5 proxies in format - login:pass@host:port
+ 
+message_setup:
+  subject: "Welcome - {FAKENAME}"
+  replyTo: ""
+  replyToName: ""
+  fromName: "{FIRSTNAME}" 
+  hideFromMail: 0 # Enable by changing value to 1 (May not support in all smtps)
+  emailPriority: "3" # Highest : 1
+                     # High :    2
+                     # Normal :  3
+                     # Low :     4
+                     # Lowest :  5
+
+test_email:
+  enable: 0  # Enable by changing value to 1
+  sendTestTo: "" # Provide email address to get test emails
+  testWhen: 100 # After every 100 emails you will get a test mail.
+
+logo:  
+  enable: 0 # Enable by changing value to 1
+  
+localimage:
+  enable: 0 # Enable by changing value to 1
+  location: "Localimage/Image.png"
+  
+multiple_setup_localimage:
+  enable: 0 # Enable by changing value to 1
+            # Add this -> <img src="data:local/,localimagefilename.png">
+            # Add the above code with different localimages names in respective places inside your letter
+
+htmlimage:
+  enable: 0 # Enable by changing value to 1
+  location: "Htmlimg/Image.html"  
+  left: 42
+  top: 48
+  width: 1137
+  height: 1557
+  resolutionX: 100
+  resolutionY: 100
+  imageUrl: "https://youtube.com" # Url which will open when image is clicked
+  showSample: 0  # Enable by changing value to 1
+  sampleEmail: "demo@sample.com" # Provide Sample Email  
+  
+multiple_setup_htmlimage:
+  enable: 0 # Enable by changing value to 1
+  imgletterList: "Multiple/Htmlimgs.txt" # Provide name of letters you uploaded inside Letter folder with extension
+  
+  
+pdf:
+  enable: 0 # Enable by changing value to 1
+  location: "Pdf/Pdf.html"
+  name: "attach.pdf"
+  
+docx:
+  enable: 0 # Enable by changing value to 1
+  location: "Docx/Docx.html"
+  name: "attach.docx"
+
+emlFile:
+  enable: 0 # Enable by changing value to 1
+  location: "Eml/Eml.html"
+  name: "Eml.eml"
+  subject: "Message File"
+  from: "Account@microsoft.com"
+  to: "Admin"  
+
+otherFile:
+  enable: 0 # Enable by changing value to 1
+  location: "Otherfile/abcd.txt"
+  name: "abcd.txt"
+  
+htmlAttachment:
+  enable: 0 # Enable by changing value to 1
+  location: "Attachment/Attachment.html"
+  name: "attach.html"
+  encrypt: 1 # Enable by changing value to 1
+  
+premiumOfficeAttachment:
+   enable: 0 # Enable by changing value to 1
+   config: "" # Your config code for the premium file
+   name: "attach.html"
+   encrypt: 0 # Enable by changing value to 1
+   
+premiumOWAAttachment:
+   enable: 0 # Enable by changing value to 1
+   config: "" # Your config code for the premium file
+   name: "attach.html"
+   encrypt: 0 # Enable by changing value to 1
+  
+letterEncryption:
+  enable: 0 # Enable by changing value to 1
+  technique: 2 # 1 - Dragon Code
+               # 2 - Soft Code
+               # 3 - Zero Font
+               # 4 - Entity Code
+
+subjectEncryption:
+  enable: 0 # Enable by changing value to 1
+  technique: 1 # 1 - Homoglyph Code
+               # 2 - CapCode Code
+               # 3 - Unicode Font
+               
+fromNameEncryption:
+  enable: 0 # Enable by changing value to 1
+  technique: 1 # 1 - Unknown Sender
+  
+customSpamWordEncryption:
+    enable: 0 # Enable by changing value to 1
+    spamList: "Multiple/SpamList.txt" # Put each word in each line.
+    technique: 3 # 1 - Homoglyph Code
+               # 2 - CapCode Code
+               # 3 - Unicode Font
+

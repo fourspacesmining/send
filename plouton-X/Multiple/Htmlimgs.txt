@@ -1,0 +1,2 @@
+{"location" : "Htmlimg/Image.html", "width" : 42,  "height" : 48, "left" : 1150, "top" : 1575, "resolutionX" : 100, "resolutionY" : 100}
+{"location" : "Htmlimg/Abcd.html", "width" : 48,  "height" : 42, "left" : 1350, "top" : 1755, "resolutionX" : 100, "resolutionY" : 100}
